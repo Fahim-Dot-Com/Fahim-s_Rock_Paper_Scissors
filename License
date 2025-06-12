@@ -1,0 +1,14 @@
+
+---
+
+### ⚙️ `.gitattributes`
+
+```gitattributes
+# Treat all files as text and normalize line endings to LF
+* text=auto eol=lf
+
+# Explicitly declare the main Python file as text
+*.py text
+
+# Ensure markdown files are treated as UTF-8
+*.md text working-tree-encoding=UTF-8
